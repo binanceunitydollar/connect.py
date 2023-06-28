@@ -1,4 +1,4 @@
-# ip-connect-
+# connect.py
 python socket 
 
 sudo apt update
