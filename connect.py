@@ -1,7 +1,7 @@
 import sys
 import socket
 
-def connect_to_ip(ip, port):
+def connect_to_ip(192.168.0.111, 5555):
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.connect((ip, port))
